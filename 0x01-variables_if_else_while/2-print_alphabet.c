@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Prints the alphabet in lowercase
+ * main - Prints the alphabet.
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,6 +14,6 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }

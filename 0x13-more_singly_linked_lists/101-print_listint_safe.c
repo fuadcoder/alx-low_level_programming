@@ -14,8 +14,6 @@ size_t print_listint_safe(const listint_t *head);
 
 size_t looped_listint_len(const listint_t *head)
 {
-size_t looped_listint_len(const listint_t *head)
-{
 	const listint_t *i, *j;
 	size_t nodes = 1;
 
